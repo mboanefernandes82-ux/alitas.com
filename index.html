@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALITAS MZ | Sabor Que Dá Vontade de Voltar — Maputo & Matola</title>
+  <meta name="description" content="Descubra a ALITAS MZ em Maputo e Matola: Hambúrgueres artesanais, burritos mexicanos autênticos, alitas de frango crocantes, sanduíches e opções 100% Halal. Peça agora!">
+  <meta name="keywords" content="Alitas, Alitas Maputo, Hambúrguer Maputo, Burritos Moçambique, Restaurante Maputo, Comida Mexicana Maputo, Alitas Ronil, Matola, Halal Maputo">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ALITAS MZ | Sabor Que Dá Vontade de Voltar">
+  <meta property="og:description" content="Hambúrgueres artesanais, burritos mexicanos suculentos, alitas crocantes e muito mais. Entregas em Maputo e Matola.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=80">
+  <meta name="theme-color" content="#e5252a">
+
+  <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Dynamic Glows -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="ambient-glow ambient-glow-3"></div>
+
+  <!-- ==========================================================================
+       1. HEADER / MENU DE NAVEGAÇÃO
+       ========================================================================== -->
+  <header class="header" id="mainHeader">
+    <div class="container nav-container">
+      <!-- Logo -->
+      <a href="#inicio" class="brand-logo" aria-label="Alitas MZ - Início">
+        <div class="logo-symbol">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+          </svg>
+        </div>
+        <span>ALITAS</span>
+        <span class="logo-tag">MZ</span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu" aria-label="Navegação Principal">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#destaques" class="nav-link">Destaques</a>
+        <a href="#sobre" class="nav-link">Sobre Nós</a>
+        <a href="#qrcode" class="nav-link">QR Menu</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#localizacao" class="nav-link">Localização</a>
+        <a href="#contactos" class="nav-link">Contactos</a>
+      </nav>
+
+      <!-- CTA Buttons & Mobile Toggle -->
+      <div class="nav-cta-wrap">
+        <button class="btn btn-primary btn-sm btn-header-cta open-order-modal-trigger" aria-label="Fazer Pedido">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span>FAZER PEDIDO</span>
+        </button>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu">
+          <div class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+        <a href="#inicio" class="brand-logo">
+          <div class="logo-symbol">🔥</div>
+          <span>ALITAS</span>
+          <span class="logo-tag">MZ</span>
+        </a>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="#inicio" class="mobile-nav-link">Início <span>→</span></a>
+        <a href="#menu" class="mobile-nav-link">Menu & Pratos <span>→</span></a>
+        <a href="#destaques" class="mobile-nav-link">Destaques <span>→</span></a>
+        <a href="#sobre" class="mobile-nav-link">Sobre a ALITAS <span>→</span></a>
+        <a href="#qrcode" class="mobile-nav-link">Menu QR Code <span>→</span></a>
+        <a href="#galeria" class="mobile-nav-link">Galeria <span>→</span></a>
+        <a href="#localizacao" class="mobile-nav-link">Localizações <span>→</span></a>
+        <a href="#instagram" class="mobile-nav-link">Instagram @alitasmz <span>→</span></a>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+      <button class="btn btn-primary open-order-modal-trigger">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>FAZER PEDIDO AGORA</span>
+      </button>
+      <button class="btn btn-secondary open-digital-menu-trigger">
+        <span>VER MENU ONLINE</span>
+      </button>
+      <p style="text-align: center; font-size: 0.8rem; color: #64748b; margin-top: 0.5rem;">Aberto das 11h00 às 22h00 • 100% Halal</p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================================================
+         2. HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="inicio">
+      <!-- Background Visuals -->
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1920&q=80" alt="Alitas Gastronomia" class="hero-bg-img" loading="eager">
+        <div class="hero-bg-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-top-badges">
+            <span class="badge-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Gastronomia Premium em Maputo
+            </span>
+            <span class="badge-tag green">
+              <span>حلال</span> 100% Halal
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            ALITAS
+            <span class="title-accent">SABOR QUE DÁ VONTADE DE VOLTAR</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Descubra uma experiência gastronómica cheia de sabor e opções para todos os gostos: hambúrgueres artesanais, autênticos burritos mexicanos, asinhas estaladiças e pratos frescos preparados na hora.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+              <span>VER O MENU</span>
+            </a>
+            <a href="#localizacao" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>ENCONTRAR UMA UNIDADE</span>
+            </a>
+          </div>
+
+          <!-- Quick Features Row -->
+          <div class="hero-quick-features">
+            <div class="hero-feature-item">
+              <div class="feature-icon-circle">📍</div>
+              <div class="feature-info">
+                <strong>4 Unidades</strong>
+                <span>Maputo, Ronil, Matola & Jardim</span>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <div class="feature-icon-circle">⏰</div>
+              <div class="feature-info">
+                <strong>11h00 às 22h00</strong>
+                <span>Aberto todos os dias</span>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <div class="feature-icon-circle">🛵</div>
+              <div class="feature-info">
+                <strong>Takeaway & Delivery</strong>
+                <span>Atendimento ágil</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero 3D Card / Visual Composition -->
+        <div class="hero-visual">
+          <div class="hero-main-card">
+            <div class="hero-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85" alt="Hambúrguer Artesanal Alitas">
+              <div class="hero-card-overlay"></div>
+              <div class="hero-floating-badge">
+                <span>🔥</span> Mais Pedido em Maputo
+              </div>
+            </div>
+
+            <div class="hero-card-content">
+              <span style="font-size: 0.78rem; text-transform: uppercase; color: var(--brand-red-light); font-weight: 800; letter-spacing: 0.08em;">Assinatura Alitas</span>
+              <h3 style="font-size: 1.5rem; margin-top: 0.2rem; color: #fff;">Hambúrguer Gourmet na Brasa</h3>
+              <p style="font-size: 0.92rem; color: #cbd5e1; margin-top: 0.3rem;">Carne suculenta, queijo derretido, molho secreto e pão brioche amanteigado.</p>
+              <div style="margin-top: 1.1rem; display: flex; align-items: center; justify-content: space-between;">
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--brand-gold);">100% Halal • Feito na Hora</span>
+                <button class="btn btn-primary btn-sm open-order-modal-btn" data-dish="Hambúrguer Gourmet na Brasa">
+                  Pedir
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Micro Pills -->
+          <div class="hero-float-pill pill-left">
+            <div class="pill-icon">🌯</div>
+            <div class="pill-text">
+              <strong>Burrito Mexicano</strong>
+              <span>Recheio generoso</span>
+            </div>
+          </div>
+
+          <div class="hero-float-pill pill-right">
+            <div class="pill-icon">🍗</div>
+            <div class="pill-text">
+              <strong>Alitas Wings</strong>
+              <span>Estaladiças & tenras</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SECÇÃO SOBRE A ALITAS
+         ========================================================================== -->
+    <section class="about-section" id="sobre">
+      <div class="container about-grid">
+        <!-- Visual Column -->
+        <div class="about-visual">
+          <div class="about-image-stack">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=900&q=80" alt="Experiência Alitas MZ" loading="lazy">
+          </div>
+          <div class="about-badge-card">
+            <div class="about-badge-icon">
+              <span>⭐</span>
+            </div>
+            <div class="about-badge-text">
+              <h4>100% Halal</h4>
+              <p>Certificado & preparado com carnes e ingredientes de alta procedência.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div class="about-content">
+          <span class="badge-tag gold">Sobre a Nossa Marca</span>
+          <h2>A Paixão Pelo Sabor Autêntico em <span class="highlight">Maputo</span></h2>
+          <p class="about-lead">
+            Na ALITAS, acreditamos que comer bem é mais do que satisfazer a fome: é uma experiência cheia de energia, tempero e momentos memoráveis.
+          </p>
+          <p>
+            Com unidades estrategicamente distribuídas em <strong>Maputo (Av. Karl Marx / Resotel, Ronil, Jardim)</strong> e na <strong>Matola</strong>, tornamo-nos a escolha favorita de famílias, jovens e apreciadores de boa gastronomia que buscam qualidade consistente todos os dias.
+          </p>
+          <p>
+            O nosso compromisso começa na escolha criteriosa de carnes 100% Halal, legumes frescos do dia, tortilhas artesanais e molhos de autor criados para proporcionar aquela sensação única: <em>sabor que dá vontade de voltar</em>.
+          </p>
+
+          <div class="about-pillars">
+            <div class="about-pillar-item">
+              <span class="pillar-bullet">✓</span>
+              <div>
+                <strong>Ingredientes Selecionados</strong>
+                <p>Frescura diária em cada preparação.</p>
+              </div>
+            </div>
+            <div class="about-pillar-item">
+              <span class="pillar-bullet">✓</span>
+              <div>
+                <strong>Receitas Autênticas</strong>
+                <p>O equilíbrio perfeito entre o clássico e o picante.</p>
+              </div>
+            </div>
+            <div class="about-pillar-item">
+              <span class="pillar-bullet">✓</span>
+              <div>
+                <strong>Atendimento Acolhedor</strong>
+                <p>Espaço para desfrutar com amigos ou takeaway rápido.</p>
+              </div>
+            </div>
+            <div class="about-pillar-item">
+              <span class="pillar-bullet">✓</span>
+              <div>
+                <strong>Para Toda a Família</strong>
+                <p>Opções infantis, peixe fresco e hambúrgueres gigantes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#menu" class="btn btn-primary">
+              <span>EXPLORAR NOSSO MENU</span>
+            </a>
+            <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>CONHECER O INSTAGRAM</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. DESTAQUES DO MENU
+         ========================================================================== -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-header" id="destaques">
+          <span class="badge-tag">Cardápio & Categorias</span>
+          <h2 class="section-title">Destaques Gastronómicos da <span class="highlight">ALITAS</span></h2>
+          <p class="section-description">
+            Explore a nossa diversidade de pratos: desde os hambúrgueres mais suculentos e burritos mexicanos até filés de peixe dourados e combos infantis.
+          </p>
+        </div>
+
+        <!-- Filter Tabs (Rendered via JavaScript) -->
+        <div class="menu-filter-wrapper">
+          <div class="menu-tabs" id="menuTabsContainer">
+            <!-- Dynamic Category Buttons -->
+          </div>
+        </div>
+
+        <!-- Menu Cards Grid (Rendered via JavaScript) -->
+        <div class="menu-grid" id="menuGridContainer">
+          <!-- Cards injected from data.js -->
+        </div>
+
+        <!-- Menu Bottom Callout -->
+        <div class="menu-bottom-callout">
+          <div class="callout-text">
+            <h3>Deseja ver a lista completa ou fazer um pedido personalizado?</h3>
+            <p>O nosso menu digital está sempre atualizado para si. Faça o seu pedido diretamente para a unidade mais próxima.</p>
+          </div>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button class="btn btn-gold open-digital-menu-trigger">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <span>BUSCAR NO MENU DIGITAL</span>
+            </button>
+            <button class="btn btn-primary open-order-modal-trigger">
+              <span>PEDIR VIA WHATSAPP</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. SECÇÃO QR CODE DO MENU
+         ========================================================================== -->
+    <section class="qrcode-section" id="qrcode">
+      <div class="container">
+        <div class="qrcode-box-wrapper">
+          <div class="qrcode-grid">
+            <!-- Instructions and Info -->
+            <div class="qrcode-content">
+              <span class="badge-tag gold">Acesso Rápido & Prático</span>
+              <h2>O MENU ESTÁ NA <span class="highlight">PALMA DA SUA MÃO</span></h2>
+              <p class="lead-text">
+                Escaneie o QR Code com a câmara do seu telemóvel e descubra todas as nossas opções, categorias e sabores onde quer que esteja.
+              </p>
+
+              <div class="qr-instructions">
+                <div class="qr-step">
+                  <div class="qr-step-num">1</div>
+                  <div class="qr-step-text">Abra a aplicação da câmara do seu smartphone ou leitor de QR Code.</div>
+                </div>
+                <div class="qr-step">
+                  <div class="qr-step-num">2</div>
+                  <div class="qr-step-text">Aponte a câmara para o código ao lado até aparecer a notificação.</div>
+                </div>
+                <div class="qr-step">
+                  <div class="qr-step-num">3</div>
+                  <div class="qr-step-text">Toque para aceder instantaneamente ao cardápio e fazer o seu pedido.</div>
+                </div>
+              </div>
+
+              <div class="qr-actions">
+                <button class="btn btn-gold open-digital-menu-trigger">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                  <span>VER MENU ONLINE</span>
+                </button>
+                <button class="btn btn-secondary" onclick="copyMenuLink()">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                  <span>COPIAR LINK DO MENU</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Stylized QR Code Visual -->
+            <div class="qrcode-visual">
+              <div class="qr-display-card">
+                <div class="qr-float-beacon">ESCANEIE AQUI</div>
+
+                <div class="qr-svg-holder">
+                  <!-- High-Contrast SVG QR Code with central Alitas logo -->
+                  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Corner 1 -->
+                    <rect x="10" y="10" width="55" height="55" rx="10" fill="#0c0e12" stroke="#e5252a" stroke-width="6"/>
+                    <rect x="25" y="25" width="25" height="25" rx="5" fill="#e5252a"/>
+                    <!-- Corner 2 -->
+                    <rect x="135" y="10" width="55" height="55" rx="10" fill="#0c0e12" stroke="#e5252a" stroke-width="6"/>
+                    <rect x="150" y="25" width="25" height="25" rx="5" fill="#e5252a"/>
+                    <!-- Corner 3 -->
+                    <rect x="10" y="135" width="55" height="55" rx="10" fill="#0c0e12" stroke="#e5252a" stroke-width="6"/>
+                    <rect x="25" y="150" width="25" height="25" rx="5" fill="#e5252a"/>
+                    <!-- Data Matrix Blocks -->
+                    <rect x="75" y="15" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="95" y="15" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="115" y="25" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="75" y="35" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="115" y="45" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="95" y="55" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    
+                    <rect x="15" y="75" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="35" y="85" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="55" y="75" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="15" y="115" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="35" y="105" width="12" height="12" rx="2" fill="#0c0e12"/>
+
+                    <rect x="135" y="75" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="155" y="85" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="175" y="75" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="135" y="115" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="155" y="105" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="175" y="115" width="12" height="12" rx="2" fill="#0c0e12"/>
+
+                    <rect x="75" y="135" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="95" y="145" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="115" y="135" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="75" y="165" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="115" y="175" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="95" y="175" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="135" y="145" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="155" y="165" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="175" y="145" width="12" height="12" rx="2" fill="#0c0e12"/>
+                    <rect x="165" y="175" width="12" height="12" rx="2" fill="#0c0e12"/>
+                  </svg>
+                  <div class="qr-center-logo">🔥</div>
+                </div>
+
+                <div class="qr-card-caption">ALITAS MENU DIGITAL</div>
+                <div class="qr-card-sub">Maputo & Matola • @alitasmz</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. GALERIA GASTRONÓMICA
+         ========================================================================== -->
+    <section class="gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Experiência Visual</span>
+          <h2 class="section-title">Galeria <span class="highlight">Gastronómica</span></h2>
+          <p class="section-description">
+            Clique em cada imagem para ampliar e sinta de perto a textura, o frescor e a suculência que fazem da ALITAS a sua paragem obrigatória.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1 (Wide) -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=80" alt="Hambúrgueres Artesanais Feitos na Hora" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">Hambúrgueres</span>
+              <h3 class="gallery-item-title">Hambúrgueres Artesanais Feitos na Hora</h3>
+              <p class="gallery-item-caption">Ingredientes frescos e carne bovina grelhada na chama com queijo cremoso.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80" alt="Burrito Mexicano Especial" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">Mexicano</span>
+              <h3 class="gallery-item-title">Burritos Mexicanos Grelhados</h3>
+              <p class="gallery-item-caption">Recheio generoso com feijão temperado, pico de gallo e queijo derretido.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80" alt="Asas de Frango Alitas Crocantes" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">Alitas Wings</span>
+              <h3 class="gallery-item-title">Asas de Frango Douradas</h3>
+              <p class="gallery-item-caption">Crocantes por fora, suculentas por dentro com temperos irresistíveis.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 (Wide) -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?auto=format&fit=crop&w=1100&q=80" alt="Prato de Peixe Especial Dourado" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">Peixe & Frutos do Mar</span>
+              <h3 class="gallery-item-title">Peixe Crocante com Molho Tártaro</h3>
+              <p class="gallery-item-caption">Filé em crosta dourada servido com batatas fritas estaladiças e limão fresco.</p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80" alt="Batatas Fritas Estaladiças" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">Acompanhamentos</span>
+              <h3 class="gallery-item-title">Batatas Rústicas e Crocantes</h3>
+              <p class="gallery-item-caption">Douradas na perfeição para acompanhar qualquer pedido.</p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Ambiente Gastronómico Alitas" loading="lazy">
+            <div class="gallery-zoom-icon">🔍</div>
+            <div class="gallery-item-overlay">
+              <span class="gallery-category-pill">O Nosso Espaço</span>
+              <h3 class="gallery-item-title">Ambiente Moderno & Descontraído</h3>
+              <p class="gallery-item-caption">Espaço ideal para reunir a família e conviver com amigos em Maputo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. SECÇÃO “POR QUE ESCOLHER A ALITAS?”
+         ========================================================================== -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag gold">Diferenciais & Valores</span>
+          <h2 class="section-title">Por Que Escolher a <span class="highlight">ALITAS</span>?</h2>
+          <p class="section-description">
+            Qualidade, rapidez e autenticidade que transformam cada refeição numa experiência gastronómica de excelência.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-card-icon">🔥</div>
+            <h3 class="feature-card-title">SABOR QUE MARCA</h3>
+            <p class="feature-card-desc">
+              Receitas exclusivas com temperos marcantes, combinando a autenticidade mexicana com o carinho do paladar moçambicano.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">🍔</div>
+            <h3 class="feature-card-title">OPÇÕES PARA TODOS OS GOSTOS</h3>
+            <p class="feature-card-desc">
+              Desde os hambúrgueres mais robustos e burritos apimentados até pratos leves de peixe e combos infantis para as crianças.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">⭐</div>
+            <h3 class="feature-card-title">100% CERTIFICADO HALAL</h3>
+            <p class="feature-card-desc">
+              Rigoroso padrão de qualidade e respeito total às normas Halal em todos os nossos processos, carnes e manuseios.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">⚡</div>
+            <h3 class="feature-card-title">EXPERIÊNCIA GASTRONÓMICA</h3>
+            <p class="feature-card-desc">
+              Preparações feitas no momento do pedido para garantir carnes quentes, queijo puxando e pães tostados na perfeição.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">🛵</div>
+            <h3 class="feature-card-title">DELIVERY & TAKEAWAY ÁGIL</h3>
+            <p class="feature-card-desc">
+              Linhas diretas de contacto e atendimento focado em levar o seu pedido quentinho e bem acondicionado onde estiver.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-icon">✨</div>
+            <h3 class="feature-card-title">AMBIENTE AGRADÁVEL</h3>
+            <p class="feature-card-desc">
+              Locais acolhedores, jovens e climatizados para saborear a sua refeição com todo o conforto e simpatia da nossa equipa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. LOCALIZAÇÃO E UNIDADES
+         ========================================================================== -->
+    <section class="location-section" id="localizacao">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Onde Estamos</span>
+          <h2 class="section-title">Encontre a <span class="highlight">ALITAS</span> Mais Próxima</h2>
+          <p class="section-description">
+            Presentes nos pontos mais acessíveis de Maputo e Matola para o servir com conforto, conveniência e agilidade.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <!-- Cards List -->
+          <div class="branches-cards-list">
+            <!-- Branch 1: Maputo Central -->
+            <div class="branch-card active" data-map="Avenida+Karl+Marx+Maputo+Mozambique">
+              <div class="branch-card-header">
+                <h3 class="branch-title">Alitas Maputo (Central / Resotel)</h3>
+                <span class="branch-badge">Sede Principal</span>
+              </div>
+              <div class="branch-address">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Avenida Karl Marx / Próximo ao Resotel, Centro de Maputo</span>
+              </div>
+              <div class="branch-phones">
+                <a href="tel:+258847104132" class="branch-phone-link">📞 84 710 4132</a>
+                <a href="tel:+258868104132" class="branch-phone-link">📞 86 810 4132</a>
+              </div>
+              <div class="branch-actions">
+                <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258847104132', 'Maputo Central')">
+                  <span>PEDIR VIA WHATSAPP</span>
+                </button>
+                <a href="https://maps.google.com/?q=Avenida+Karl+Marx+Maputo+Mozambique" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>COMO CHEGAR</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Branch 2: Ronil -->
+            <div class="branch-card" data-map="Avenida+de+Mocambique+Maputo+Mozambique">
+              <div class="branch-card-header">
+                <h3 class="branch-title">Alitas Ronil</h3>
+                <span class="branch-badge">Drive & Takeaway</span>
+              </div>
+              <div class="branch-address">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Avenida de Moçambique, Ronil, Maputo</span>
+              </div>
+              <div class="branch-phones">
+                <a href="tel:+258857924173" class="branch-phone-link">📞 85 792 4173</a>
+                <a href="tel:+258870124173" class="branch-phone-link">📞 87 012 4173</a>
+              </div>
+              <div class="branch-actions">
+                <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258857924173', 'Ronil')">
+                  <span>PEDIR VIA WHATSAPP</span>
+                </button>
+                <a href="https://maps.google.com/?q=Avenida+de+Mocambique+Maputo+Mozambique" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>COMO CHEGAR</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Branch 3: Matola -->
+            <div class="branch-card" data-map="Matola+Mozambique">
+              <div class="branch-card-header">
+                <h3 class="branch-title">Alitas Matola</h3>
+                <span class="branch-badge">Cidade da Matola</span>
+              </div>
+              <div class="branch-address">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Zona Central da Matola, Matola</span>
+              </div>
+              <div class="branch-phones">
+                <a href="tel:+258843910408" class="branch-phone-link">📞 84 391 0408</a>
+                <a href="tel:+258879210408" class="branch-phone-link">📞 87 921 0408</a>
+              </div>
+              <div class="branch-actions">
+                <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258843910408', 'Matola')">
+                  <span>PEDIR VIA WHATSAPP</span>
+                </button>
+                <a href="https://maps.google.com/?q=Matola+Mozambique" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>COMO CHEGAR</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Branch 4: Jardim -->
+            <div class="branch-card" data-map="Bairro+do+Jardim+Maputo+Mozambique">
+              <div class="branch-card-header">
+                <h3 class="branch-title">Alitas Jardim</h3>
+                <span class="branch-badge">Atendimento Rápido</span>
+              </div>
+              <div class="branch-address">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Bairro do Jardim / Estrada Principal, Maputo</span>
+              </div>
+              <div class="branch-phones">
+                <a href="tel:+258845191537" class="branch-phone-link">📞 84 519 1537</a>
+                <a href="tel:+258872918662" class="branch-phone-link">📞 87 291 8662</a>
+              </div>
+              <div class="branch-actions">
+                <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258845191537', 'Jardim')">
+                  <span>PEDIR VIA WHATSAPP</span>
+                </button>
+                <a href="https://maps.google.com/?q=Bairro+do+Jardim+Maputo+Mozambique" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>COMO CHEGAR</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Google Maps Viewport -->
+          <div class="map-visual-wrap">
+            <div class="map-visual-header">
+              <div>
+                <strong id="currentBranchLabel" style="color: #fff; font-size: 1.1rem; display: block;">Alitas Maputo (Central / Resotel)</strong>
+                <span style="font-size: 0.82rem; color: #94a3b8;">Aberto todos os dias das 11h00 às 22h00</span>
+              </div>
+              <div class="map-status-pill">
+                <span class="map-status-dot"></span>
+                <span>Aberto Agora</span>
+              </div>
+            </div>
+            <div class="map-embed-container">
+              <iframe id="googleMapIframe" src="https://maps.google.com/maps?q=Avenida+Karl+Marx+Maputo+Mozambique&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Mapa da Unidade Alitas Selecionada"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. INSTAGRAM SECTION
+         ========================================================================== -->
+    <section class="instagram-section" id="instagram">
+      <div class="container">
+        <div class="instagram-banner">
+          <div class="insta-handle-box">
+            <div class="insta-avatar">
+              <div class="insta-avatar-inner">A</div>
+            </div>
+            <div class="insta-meta">
+              <span class="badge-tag" style="margin-bottom: 0.35rem;">Rede Social Oficial</span>
+              <h3>ACOMPANHE A ALITAS</h3>
+              <p>Siga-nos no Instagram e fique por dentro das novidades, pratos e experiências.</p>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span>SEGUIR @ALITASMZ</span>
+          </a>
+        </div>
+
+        <div class="insta-grid">
+          <!-- Post 1 -->
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" alt="Post Instagram Alitas Hambúrguer" loading="lazy">
+            <div class="insta-card-overlay">
+              <div class="insta-stats">
+                <div class="insta-stat-item">❤️ 1,248</div>
+                <div class="insta-stat-item">💬 84</div>
+              </div>
+              <p class="insta-caption">Aquele hambúrguer que faz o seu dia valer a pena! Já pediu o seu hoje? 🔥🍔 #AlitasMZ #Maputo</p>
+            </div>
+          </a>
+
+          <!-- Post 2 -->
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80" alt="Post Instagram Alitas Burrito" loading="lazy">
+            <div class="insta-card-overlay">
+              <div class="insta-stats">
+                <div class="insta-stat-item">❤️ 982</div>
+                <div class="insta-stat-item">💬 56</div>
+              </div>
+              <p class="insta-caption">Burritos recheados de puro sabor e ingredientes de primeira qualidade! 🌯🌶️ #TexMexAlitas</p>
+            </div>
+          </a>
+
+          <!-- Post 3 -->
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80" alt="Post Instagram Alitas Wings" loading="lazy">
+            <div class="insta-card-overlay">
+              <div class="insta-stats">
+                <div class="insta-stat-item">❤️ 1,530</div>
+                <div class="insta-stat-item">💬 112</div>
+              </div>
+              <p class="insta-caption">Alitas crocantes e bem temperadas. Impossível comer só uma! 🍗✨ #AlitasWings</p>
+            </div>
+          </a>
+
+          <!-- Post 4 -->
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="insta-card">
+            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80" alt="Post Instagram Alitas Mexican Burger" loading="lazy">
+            <div class="insta-card-overlay">
+              <div class="insta-stats">
+                <div class="insta-stat-item">❤️ 874</div>
+                <div class="insta-stat-item">💬 43</div>
+              </div>
+              <p class="insta-caption">Seja no almoço ou no jantar, o sabor do Alitas marca presença na sua mesa! 💛🛵 #MaputoFood</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="footer" id="contactos">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-brand">
+          <a href="#inicio" class="brand-logo">
+            <div class="logo-symbol">🔥</div>
+            <span>ALITAS</span>
+            <span class="logo-tag">MZ</span>
+          </a>
+          <p>
+            Sabor que dá vontade de voltar. A sua referência de hambúrgueres artesanais, burritos mexicanos e delícias gastronómicas 100% Halal em Maputo e Matola.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram @alitasmz">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <button class="social-icon-btn open-order-modal-trigger" aria-label="Pedir no WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Links Rápidos</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#menu">Menu & Categorias</a></li>
+            <li><a href="#destaques">Destaques da Casa</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#qrcode">QR Code do Menu</a></li>
+            <li><a href="#galeria">Galeria Fotográfica</a></li>
+            <li><a href="#localizacao">Nossas Unidades</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Categorias -->
+        <div>
+          <h4 class="footer-col-title">Categorias</h4>
+          <ul class="footer-links-list">
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('hamburgueres'),100)">Hambúrgueres</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('mexicanos'),100)">Hambúrgueres Mexicanos</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('burritos'),100)">Burritos Mexicanos</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('burrito-carne'),100)">Burrito de Carne</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('sanduiches'),100)">Sanduíches</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('peixe'),100)">Pratos de Peixe</a></li>
+            <li><a href="#menu" onclick="setTimeout(()=>renderMenuItems('infantil'),100)">Menu Infantil</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Hotlines -->
+        <div>
+          <h4 class="footer-col-title">Unidades & Delivery</h4>
+          
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <div class="footer-contact-info">
+              <strong>Maputo (Resotel)</strong>
+              <span>84 710 4132 / 86 810 4132</span>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <div class="footer-contact-info">
+              <strong>Ronil (Av. Moçambique)</strong>
+              <span>85 792 4173 / 87 012 4173</span>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <div class="footer-contact-info">
+              <strong>Matola</strong>
+              <span>84 391 0408 / 87 921 0408</span>
+            </div>
+          </div>
+
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <div class="footer-contact-info">
+              <strong>Jardim</strong>
+              <span>84 519 1537 / 87 291 8662</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1rem;">
+            <span style="font-size: 0.8rem; color: #10b981; font-weight: 700;">● Aberto Todos os Dias: 11h00 - 22h00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 ALITAS MZ. Todos os direitos reservados. Maputo, Moçambique.</p>
+        <div class="footer-bottom-links">
+          <a href="#inicio">Voltar ao Topo</a>
+          <a href="https://www.instagram.com/alitasmz/" target="_blank" rel="noopener noreferrer">@alitasmz</a>
+          <span style="color: #64748b;">100% Halal حلال</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Voltar ao início">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- ==========================================================================
+       MODAL 1: DIGITAL MENU VIEWER (Pesquisa & Detalhes)
+       ========================================================================== -->
+  <div class="modal-overlay" id="digitalMenuModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>Menu Digital ALITAS</h3>
+          <p>Consulte todos os pratos e selecione o seu favorito para pedir via WhatsApp</p>
+        </div>
+        <button class="modal-close-btn" id="closeDigitalMenuBtn" aria-label="Fechar">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-search-bar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="digitalMenuSearch" placeholder="Pesquisar por hambúrguer, burrito, carne, frango, peixe...">
+        </div>
+
+        <div id="digitalMenuList">
+          <!-- Dynamic Items Injected Here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: SELETOR DE UNIDADE PARA PEDIDO DIRETO VIA WHATSAPP
+       ========================================================================== -->
+  <div class="modal-overlay" id="orderBranchModal">
+    <div class="modal-card" style="max-width: 680px;">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>Escolha a Unidade para o Seu Pedido</h3>
+          <p>Selecione a filial mais próxima de si para atendimento imediato e entrega</p>
+        </div>
+        <button class="modal-close-btn" id="closeOrderModalBtn" aria-label="Fechar">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Notice if user came from a specific dish -->
+        <div id="orderModalSelectedDishNotice" style="display: none; background: rgba(229,37,42,0.12); border: 1px solid var(--border-red); padding: 0.9rem 1.2rem; border-radius: 12px; margin-bottom: 1.25rem;">
+          <span style="font-size: 0.82rem; color: #ff8589; font-weight: 700; text-transform: uppercase;">Prato Selecionado:</span>
+          <div id="orderModalDishName" style="color: #fff; font-size: 1.1rem; font-weight: 800;"></div>
+        </div>
+
+        <div class="order-branch-options">
+          <!-- Option 1: Maputo -->
+          <div class="branch-select-box">
+            <div>
+              <span class="branch-badge">Maputo Central</span>
+              <h4 style="margin-top: 0.5rem;">Alitas Maputo (Karl Marx / Resotel)</h4>
+              <p style="color: #94a3b8;">Atendimento geral, Takeaway e Entregas na cidade.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258847104132', 'Maputo Central')">
+              <span>PEDIR NO WHATSAPP</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Option 2: Ronil -->
+          <div class="branch-select-box">
+            <div>
+              <span class="branch-badge">Ronil</span>
+              <h4 style="margin-top: 0.5rem;">Alitas Ronil (Av. Moçambique)</h4>
+              <p style="color: #94a3b8;">Rápido atendimento ao balcão e encomendas.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258857924173', 'Ronil')">
+              <span>PEDIR NO WHATSAPP</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Option 3: Matola -->
+          <div class="branch-select-box">
+            <div>
+              <span class="branch-badge">Matola</span>
+              <h4 style="margin-top: 0.5rem;">Alitas Matola</h4>
+              <p style="color: #94a3b8;">Pedidos e entregas para toda a região da Matola.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258843910408', 'Matola')">
+              <span>PEDIR NO WHATSAPP</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Option 4: Jardim -->
+          <div class="branch-select-box">
+            <div>
+              <span class="branch-badge">Jardim</span>
+              <h4 style="margin-top: 0.5rem;">Alitas Jardim</h4>
+              <p style="color: #94a3b8;">Estrada principal, serviço ágil e takeaways.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="sendWhatsAppOrder('258845191537', 'Jardim')">
+              <span>PEDIR NO WHATSAPP</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 3: LIGHTBOX VISUALIZADOR DE FOTOS
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Fechar Foto">&times;</button>
+      <img src="" alt="Foto Ampliada" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption-text" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Data & Application Logic -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
